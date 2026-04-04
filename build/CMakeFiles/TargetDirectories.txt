@@ -1,3 +1,0 @@
-C:/Users/Umut/Desktop/Dev/host_ch/build/CMakeFiles/host_ch.dir
-C:/Users/Umut/Desktop/Dev/host_ch/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/Umut/Desktop/Dev/host_ch/build/CMakeFiles/ZERO_CHECK.dir
