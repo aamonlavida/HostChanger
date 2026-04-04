@@ -1,0 +1,1051 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\Umut\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Umut\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Python313\\Scripts\\"
+        - "C:\\Program Files\\Python313\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Umut\\vcpkg"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Users\\Umut\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Umut\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Umut\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Umut\\AppData\\Roaming\\Python\\Python313\\Scripts"
+        - "C:\\Users\\Umut\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Umut\\go\\bin"
+        - "C:\\Users\\Umut\\.dotnet\\tools"
+        - "C:\\Users\\Umut\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\Umut\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg.Shared_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1-full_build-shared\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      .NET Framework i├ğin MSBuild s├╝r├╝m 18.5.3+60a3d41e9
+      Olu┼şturma ba┼şlat─▒ld─▒: 4.04.2026 21:46:49.
+      
+      1 d├╝─ş├╝m├╝nde "C:\\Users\\Umut\\Desktop\\Dev\\host_ch\\build\\CMakeFiles\\4.2.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" projesi (varsay─▒lan hedefler).
+      PrepareForBuild:
+        "Debug\\" dizini olu┼şturuluyor.
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        "Debug\\CompilerIdCXX.tlog\\" dizini olu┼şturuluyor.
+      InitializeBuildStatus:
+        "AlwaysCreate" belirtildi─şi i├ğin "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" olu┼şturuluyor.
+        "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" ├Â─şesine eri┼şiliyor.
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\Umut\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Umut\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\Umut\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\Umut\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\Umut\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Umut\\Desktop\\Dev\\host_ch\\build\\CMakeFiles\\4.2.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Umut\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Umut\\Desktop\\Dev\\host_ch\\build\\CMakeFiles\\4.2.1\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\Umut\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' is not recognized as an internal or external command,
+        operable program or batch file.
+        "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Umut\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Umut\\Desktop\\Dev\\host_ch\\build\\CMakeFiles\\4.2.1\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\Umut\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" komutundan 9009 koduyla ├ğ─▒k─▒ld─▒.
+        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Umut\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Umut\\Desktop\\Dev\\host_ch\\build\\CMakeFiles\\4.2.1\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\Umut\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" dosyas─▒ siliniyor.
+        "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate" ├Â─şesine eri┼şiliyor.
+      "C:\\Users\\Umut\\Desktop\\Dev\\host_ch\\build\\CMakeFiles\\4.2.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" Projesini Olu┼şturma ─░┼şlemi Tamamland─▒ (varsay─▒lan hedefler).
+      
+      Olu┼şturma ba┼şar─▒l─▒ oldu.
+          0 Uyar─▒
+          0 Hata
+      
+      Ge├ğen S├╝re 00:00:01.31
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Umut/Desktop/Dev/host_ch/build/CMakeFiles/4.2.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Users/Umut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/Umut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Python313/Scripts/"
+      - "C:/Program Files/Python313/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Umut/vcpkg/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Users/Umut/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Umut/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Umut/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Umut/AppData/Roaming/Python/Python313/Scripts/"
+      - "C:/Users/Umut/AppData/Roaming/npm/"
+      - "C:/Users/Umut/go/bin/"
+      - "C:/Users/Umut/.dotnet/tools/"
+      - "C:/Users/Umut/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/Umut/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg.Shared_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1-full_build-shared/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\Umut\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Umut\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Python313\\Scripts\\"
+        - "C:\\Program Files\\Python313\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Umut\\vcpkg"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Users\\Umut\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Umut\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Umut\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Umut\\AppData\\Roaming\\Python\\Python313\\Scripts"
+        - "C:\\Users\\Umut\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Umut\\go\\bin"
+        - "C:\\Users\\Umut\\.dotnet\\tools"
+        - "C:\\Users\\Umut\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\Umut\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg.Shared_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1-full_build-shared\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Users/Umut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/Umut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Python313/Scripts/"
+      - "C:/Program Files/Python313/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Umut/vcpkg/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Users/Umut/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Umut/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Umut/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Umut/AppData/Roaming/Python/Python313/Scripts/"
+      - "C:/Users/Umut/AppData/Roaming/npm/"
+      - "C:/Users/Umut/go/bin/"
+      - "C:/Users/Umut/.dotnet/tools/"
+      - "C:/Users/Umut/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/Umut/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg.Shared_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1-full_build-shared/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link"
+      - "C:/Users/Umut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.com"
+      - "C:/Users/Umut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.exe"
+      - "C:/Users/Umut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link"
+      - "C:/Users/Umut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link.com"
+      - "C:/Users/Umut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link.exe"
+      - "C:/Users/Umut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link"
+      - "C:/Program Files/Python313/Scripts/lld-link.com"
+      - "C:/Program Files/Python313/Scripts/lld-link.exe"
+      - "C:/Program Files/Python313/Scripts/lld-link"
+      - "C:/Program Files/Python313/lld-link.com"
+      - "C:/Program Files/Python313/lld-link.exe"
+      - "C:/Program Files/Python313/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Users/Umut/vcpkg/lld-link.com"
+      - "C:/Users/Umut/vcpkg/lld-link.exe"
+      - "C:/Users/Umut/vcpkg/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files/Go/bin/lld-link.com"
+      - "C:/Program Files/Go/bin/lld-link.exe"
+      - "C:/Program Files/Go/bin/lld-link"
+      - "C:/Users/Umut/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/Umut/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/Umut/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "C:/Users/Umut/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/Umut/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/Umut/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/Umut/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/Umut/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/Umut/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/Umut/AppData/Roaming/Python/Python313/Scripts/lld-link.com"
+      - "C:/Users/Umut/AppData/Roaming/Python/Python313/Scripts/lld-link.exe"
+      - "C:/Users/Umut/AppData/Roaming/Python/Python313/Scripts/lld-link"
+      - "C:/Users/Umut/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/Umut/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/Umut/AppData/Roaming/npm/lld-link"
+      - "C:/Users/Umut/go/bin/lld-link.com"
+      - "C:/Users/Umut/go/bin/lld-link.exe"
+      - "C:/Users/Umut/go/bin/lld-link"
+      - "C:/Users/Umut/.dotnet/tools/lld-link.com"
+      - "C:/Users/Umut/.dotnet/tools/lld-link.exe"
+      - "C:/Users/Umut/.dotnet/tools/lld-link"
+      - "C:/Users/Umut/AppData/Local/Programs/Antigravity/bin/lld-link.com"
+      - "C:/Users/Umut/AppData/Local/Programs/Antigravity/bin/lld-link.exe"
+      - "C:/Users/Umut/AppData/Local/Programs/Antigravity/bin/lld-link"
+      - "C:/Users/Umut/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg.Shared_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1-full_build-shared/bin/lld-link.com"
+      - "C:/Users/Umut/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg.Shared_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1-full_build-shared/bin/lld-link.exe"
+      - "C:/Users/Umut/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg.Shared_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1-full_build-shared/bin/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\Umut\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Umut\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Python313\\Scripts\\"
+        - "C:\\Program Files\\Python313\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Umut\\vcpkg"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Users\\Umut\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Umut\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Umut\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Umut\\AppData\\Roaming\\Python\\Python313\\Scripts"
+        - "C:\\Users\\Umut\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Umut\\go\\bin"
+        - "C:\\Users\\Umut\\.dotnet\\tools"
+        - "C:\\Users\\Umut\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\Umut\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg.Shared_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1-full_build-shared\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Users/Umut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/Umut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Python313/Scripts/"
+      - "C:/Program Files/Python313/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Umut/vcpkg/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Users/Umut/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Umut/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Umut/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Umut/AppData/Roaming/Python/Python313/Scripts/"
+      - "C:/Users/Umut/AppData/Roaming/npm/"
+      - "C:/Users/Umut/go/bin/"
+      - "C:/Users/Umut/.dotnet/tools/"
+      - "C:/Users/Umut/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/Umut/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg.Shared_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1-full_build-shared/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\Umut\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Umut\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Python313\\Scripts\\"
+        - "C:\\Program Files\\Python313\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Umut\\vcpkg"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Users\\Umut\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Umut\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Umut\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Umut\\AppData\\Roaming\\Python\\Python313\\Scripts"
+        - "C:\\Users\\Umut\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Umut\\go\\bin"
+        - "C:\\Users\\Umut\\.dotnet\\tools"
+        - "C:\\Users\\Umut\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\Umut\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg.Shared_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1-full_build-shared\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Users/Umut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/Umut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Python313/Scripts/"
+      - "C:/Program Files/Python313/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Umut/vcpkg/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Users/Umut/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Umut/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Umut/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Umut/AppData/Roaming/Python/Python313/Scripts/"
+      - "C:/Users/Umut/AppData/Roaming/npm/"
+      - "C:/Users/Umut/go/bin/"
+      - "C:/Users/Umut/.dotnet/tools/"
+      - "C:/Users/Umut/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/Umut/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg.Shared_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1-full_build-shared/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt"
+      - "C:/Users/Umut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt.com"
+      - "C:/Users/Umut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt.exe"
+      - "C:/Users/Umut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt"
+      - "C:/Users/Umut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/mt.com"
+      - "C:/Users/Umut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/mt.exe"
+      - "C:/Users/Umut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/mt"
+      - "C:/Program Files/Python313/Scripts/mt.com"
+      - "C:/Program Files/Python313/Scripts/mt.exe"
+      - "C:/Program Files/Python313/Scripts/mt"
+      - "C:/Program Files/Python313/mt.com"
+      - "C:/Program Files/Python313/mt.exe"
+      - "C:/Program Files/Python313/mt"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/mt.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/mt.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Program Files/nodejs/mt.com"
+      - "C:/Program Files/nodejs/mt.exe"
+      - "C:/Program Files/nodejs/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Users/Umut/vcpkg/mt.com"
+      - "C:/Users/Umut/vcpkg/mt.exe"
+      - "C:/Users/Umut/vcpkg/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/Program Files/Go/bin/mt.com"
+      - "C:/Program Files/Go/bin/mt.exe"
+      - "C:/Program Files/Go/bin/mt"
+      - "C:/Users/Umut/AppData/Local/Programs/Python/Launcher/mt.com"
+      - "C:/Users/Umut/AppData/Local/Programs/Python/Launcher/mt.exe"
+      - "C:/Users/Umut/AppData/Local/Programs/Python/Launcher/mt"
+      - "C:/Users/Umut/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/Umut/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/Umut/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/Umut/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/Umut/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/Umut/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/Users/Umut/AppData/Roaming/Python/Python313/Scripts/mt.com"
+      - "C:/Users/Umut/AppData/Roaming/Python/Python313/Scripts/mt.exe"
+      - "C:/Users/Umut/AppData/Roaming/Python/Python313/Scripts/mt"
+      - "C:/Users/Umut/AppData/Roaming/npm/mt.com"
+      - "C:/Users/Umut/AppData/Roaming/npm/mt.exe"
+      - "C:/Users/Umut/AppData/Roaming/npm/mt"
+      - "C:/Users/Umut/go/bin/mt.com"
+      - "C:/Users/Umut/go/bin/mt.exe"
+      - "C:/Users/Umut/go/bin/mt"
+      - "C:/Users/Umut/.dotnet/tools/mt.com"
+      - "C:/Users/Umut/.dotnet/tools/mt.exe"
+      - "C:/Users/Umut/.dotnet/tools/mt"
+      - "C:/Users/Umut/AppData/Local/Programs/Antigravity/bin/mt.com"
+      - "C:/Users/Umut/AppData/Local/Programs/Antigravity/bin/mt.exe"
+      - "C:/Users/Umut/AppData/Local/Programs/Antigravity/bin/mt"
+      - "C:/Users/Umut/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg.Shared_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1-full_build-shared/bin/mt.com"
+      - "C:/Users/Umut/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg.Shared_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1-full_build-shared/bin/mt.exe"
+      - "C:/Users/Umut/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg.Shared_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1-full_build-shared/bin/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\Umut\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Umut\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Python313\\Scripts\\"
+        - "C:\\Program Files\\Python313\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Umut\\vcpkg"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Users\\Umut\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Umut\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Umut\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Umut\\AppData\\Roaming\\Python\\Python313\\Scripts"
+        - "C:\\Users\\Umut\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Umut\\go\\bin"
+        - "C:\\Users\\Umut\\.dotnet\\tools"
+        - "C:\\Users\\Umut\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\Umut\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg.Shared_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1-full_build-shared\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Users/Umut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/Umut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Python313/Scripts/"
+      - "C:/Program Files/Python313/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Umut/vcpkg/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Users/Umut/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Umut/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Umut/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Umut/AppData/Roaming/Python/Python313/Scripts/"
+      - "C:/Users/Umut/AppData/Roaming/npm/"
+      - "C:/Users/Umut/go/bin/"
+      - "C:/Users/Umut/.dotnet/tools/"
+      - "C:/Users/Umut/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/Umut/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg.Shared_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1-full_build-shared/bin/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\Umut\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Umut\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Python313\\Scripts\\"
+        - "C:\\Program Files\\Python313\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Umut\\vcpkg"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Users\\Umut\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Umut\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Umut\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Umut\\AppData\\Roaming\\Python\\Python313\\Scripts"
+        - "C:\\Users\\Umut\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Umut\\go\\bin"
+        - "C:\\Users\\Umut\\.dotnet\\tools"
+        - "C:\\Users\\Umut\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\Umut\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg.Shared_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1-full_build-shared\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:580 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC.cmake:553 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-MSVC-CXX.cmake:6 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Users/Umut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/Umut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Program Files/Python313/Scripts/"
+      - "C:/Program Files/Python313/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Umut/vcpkg/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Go/bin/"
+      - "C:/Users/Umut/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/Umut/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Umut/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Umut/AppData/Roaming/Python/Python313/Scripts/"
+      - "C:/Users/Umut/AppData/Roaming/npm/"
+      - "C:/Users/Umut/go/bin/"
+      - "C:/Users/Umut/.dotnet/tools/"
+      - "C:/Users/Umut/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/Umut/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg.Shared_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1-full_build-shared/bin/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/HostChanger/bin/"
+      - "C:/Program Files (x86)/HostChanger/sbin/"
+      - "C:/Program Files (x86)/HostChanger/"
+    searched_directories:
+      - "C:/Users/Umut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc.com"
+      - "C:/Users/Umut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc.exe"
+      - "C:/Users/Umut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc"
+      - "C:/Users/Umut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/rc.com"
+      - "C:/Users/Umut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/rc.exe"
+      - "C:/Users/Umut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/rc"
+      - "C:/Program Files/Python313/Scripts/rc.com"
+      - "C:/Program Files/Python313/Scripts/rc.exe"
+      - "C:/Program Files/Python313/Scripts/rc"
+      - "C:/Program Files/Python313/rc.com"
+      - "C:/Program Files/Python313/rc.exe"
+      - "C:/Program Files/Python313/rc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/rc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/rc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Program Files/nodejs/rc.com"
+      - "C:/Program Files/nodejs/rc.exe"
+      - "C:/Program Files/nodejs/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Users/Umut/vcpkg/rc.com"
+      - "C:/Users/Umut/vcpkg/rc.exe"
+      - "C:/Users/Umut/vcpkg/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/Go/bin/rc.com"
+      - "C:/Program Files/Go/bin/rc.exe"
+      - "C:/Program Files/Go/bin/rc"
+      - "C:/Users/Umut/AppData/Local/Programs/Python/Launcher/rc.com"
+      - "C:/Users/Umut/AppData/Local/Programs/Python/Launcher/rc.exe"
+      - "C:/Users/Umut/AppData/Local/Programs/Python/Launcher/rc"
+      - "C:/Users/Umut/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/Umut/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/Umut/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/Umut/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/Umut/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/Umut/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/Users/Umut/AppData/Roaming/Python/Python313/Scripts/rc.com"
+      - "C:/Users/Umut/AppData/Roaming/Python/Python313/Scripts/rc.exe"
+      - "C:/Users/Umut/AppData/Roaming/Python/Python313/Scripts/rc"
+      - "C:/Users/Umut/AppData/Roaming/npm/rc.com"
+      - "C:/Users/Umut/AppData/Roaming/npm/rc.exe"
+      - "C:/Users/Umut/AppData/Roaming/npm/rc"
+      - "C:/Users/Umut/go/bin/rc.com"
+      - "C:/Users/Umut/go/bin/rc.exe"
+      - "C:/Users/Umut/go/bin/rc"
+      - "C:/Users/Umut/.dotnet/tools/rc.com"
+      - "C:/Users/Umut/.dotnet/tools/rc.exe"
+      - "C:/Users/Umut/.dotnet/tools/rc"
+      - "C:/Users/Umut/AppData/Local/Programs/Antigravity/bin/rc.com"
+      - "C:/Users/Umut/AppData/Local/Programs/Antigravity/bin/rc.exe"
+      - "C:/Users/Umut/AppData/Local/Programs/Antigravity/bin/rc"
+      - "C:/Users/Umut/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg.Shared_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1-full_build-shared/bin/rc.com"
+      - "C:/Users/Umut/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg.Shared_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1-full_build-shared/bin/rc.exe"
+      - "C:/Users/Umut/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg.Shared_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1-full_build-shared/bin/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files (x86)/HostChanger/bin/rc.com"
+      - "C:/Program Files (x86)/HostChanger/bin/rc.exe"
+      - "C:/Program Files (x86)/HostChanger/bin/rc"
+      - "C:/Program Files (x86)/HostChanger/sbin/rc.com"
+      - "C:/Program Files (x86)/HostChanger/sbin/rc.exe"
+      - "C:/Program Files (x86)/HostChanger/sbin/rc"
+      - "C:/Program Files (x86)/HostChanger/rc.com"
+      - "C:/Program Files (x86)/HostChanger/rc.exe"
+      - "C:/Program Files (x86)/HostChanger/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "c:\\Users\\Umut\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Umut\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Program Files\\Python313\\Scripts\\"
+        - "C:\\Program Files\\Python313\\"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Umut\\vcpkg"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Go\\bin"
+        - "C:\\Users\\Umut\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\Umut\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Umut\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Umut\\AppData\\Roaming\\Python\\Python313\\Scripts"
+        - "C:\\Users\\Umut\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Umut\\go\\bin"
+        - "C:\\Users\\Umut\\.dotnet\\tools"
+        - "C:\\Users\\Umut\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\Umut\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg.Shared_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1-full_build-shared\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/HostChanger"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/HostChanger"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Umut/Desktop/Dev/host_ch/build/CMakeFiles/CMakeScratch/TryCompile-66gth2"
+      binary: "C:/Users/Umut/Desktop/Dev/host_ch/build/CMakeFiles/CMakeScratch/TryCompile-66gth2"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Umut/Desktop/Dev/host_ch/build/CMakeFiles/CMakeScratch/TryCompile-66gth2'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2cb1b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        .NET Framework i├ğin MSBuild s├╝r├╝m 18.5.3+60a3d41e9
+        Olu┼şturma ba┼şlat─▒ld─▒: 4.04.2026 21:46:51.
+        
+        1 d├╝─ş├╝m├╝nde "C:\\Users\\Umut\\Desktop\\Dev\\host_ch\\build\\CMakeFiles\\CMakeScratch\\TryCompile-66gth2\\cmTC_2cb1b.vcxproj" projesi (varsay─▒lan hedefler).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          "C:\\Users\\Umut\\Desktop\\Dev\\host_ch\\build\\CMakeFiles\\CMakeScratch\\TryCompile-66gth2\\Debug\\" dizini olu┼şturuluyor.
+          "cmTC_2cb1b.dir\\Debug\\cmTC_2cb1b.tlog\\" dizini olu┼şturuluyor.
+        InitializeBuildStatus:
+          "AlwaysCreate" belirtildi─şi i├ğin "cmTC_2cb1b.dir\\Debug\\cmTC_2cb1b.tlog\\unsuccessfulbuild" olu┼şturuluyor.
+          "cmTC_2cb1b.dir\\Debug\\cmTC_2cb1b.tlog\\unsuccessfulbuild" ├Â─şesine eri┼şiliyor.
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\Umut\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Umut\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_2cb1b.dir\\Debug\\\\" /Fd"cmTC_2cb1b.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35728 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /I"C:\\Users\\Umut\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_2cb1b.dir\\Debug\\\\" /Fd"cmTC_2cb1b.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\Umut\\Desktop\\Dev\\host_ch\\build\\CMakeFiles\\CMakeScratch\\TryCompile-66gth2\\Debug\\cmTC_2cb1b.exe" /INCREMENTAL /ILK:"cmTC_2cb1b.dir\\Debug\\cmTC_2cb1b.ilk" /NOLOGO /LIBPATH:"C:\\Users\\Umut\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\Umut\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\Umut\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Umut/Desktop/Dev/host_ch/build/CMakeFiles/CMakeScratch/TryCompile-66gth2/Debug/cmTC_2cb1b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/Umut/Desktop/Dev/host_ch/build/CMakeFiles/CMakeScratch/TryCompile-66gth2/Debug/cmTC_2cb1b.lib" /MACHINE:X64  /machine:x64 cmTC_2cb1b.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_2cb1b.vcxproj -> C:\\Users\\Umut\\Desktop\\Dev\\host_ch\\build\\CMakeFiles\\CMakeScratch\\TryCompile-66gth2\\Debug\\cmTC_2cb1b.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Umut\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Umut\\Desktop\\Dev\\host_ch\\build\\CMakeFiles\\CMakeScratch\\TryCompile-66gth2\\Debug\\cmTC_2cb1b.exe" "C:\\Users\\Umut\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_2cb1b.dir\\Debug\\cmTC_2cb1b.tlog\\cmTC_2cb1b.write.1u.tlog" "cmTC_2cb1b.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' is not recognized as an internal or external command,
+          operable program or batch file.
+          "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Umut\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Umut\\Desktop\\Dev\\host_ch\\build\\CMakeFiles\\CMakeScratch\\TryCompile-66gth2\\Debug\\cmTC_2cb1b.exe" "C:\\Users\\Umut\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_2cb1b.dir\\Debug\\cmTC_2cb1b.tlog\\cmTC_2cb1b.write.1u.tlog" "cmTC_2cb1b.dir\\Debug\\vcpkg.applocal.log"" komutundan 9009 koduyla ├ğ─▒k─▒ld─▒.
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Umut\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\Umut\\Desktop\\Dev\\host_ch\\build\\CMakeFiles\\CMakeScratch\\TryCompile-66gth2\\Debug\\cmTC_2cb1b.exe" "C:\\Users\\Umut\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_2cb1b.dir\\Debug\\cmTC_2cb1b.tlog\\cmTC_2cb1b.write.1u.tlog" "cmTC_2cb1b.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          "cmTC_2cb1b.dir\\Debug\\cmTC_2cb1b.tlog\\unsuccessfulbuild" dosyas─▒ siliniyor.
+          "cmTC_2cb1b.dir\\Debug\\cmTC_2cb1b.tlog\\cmTC_2cb1b.lastbuildstate" ├Â─şesine eri┼şiliyor.
+        "C:\\Users\\Umut\\Desktop\\Dev\\host_ch\\build\\CMakeFiles\\CMakeScratch\\TryCompile-66gth2\\cmTC_2cb1b.vcxproj" Projesini Olu┼şturma ─░┼şlemi Tamamland─▒ (varsay─▒lan hedefler).
+        
+        Olu┼şturma ba┼şar─▒l─▒ oldu.
+            0 Uyar─▒
+            0 Hata
+        
+        Ge├ğen S├╝re 00:00:00.80
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.50.35728.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...

@@ -1,0 +1,10 @@
+^C:\USERS\UMUT\DESKTOP\DEV\HOST_CH\BUILD\CMAKEFILES\E81A73D89DE7B1561AC1BC983F8D4BB0\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Umut/Desktop/Dev/host_ch -BC:/Users/Umut/Desktop/Dev/host_ch/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Umut/Desktop/Dev/host_ch/build/HostChanger.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
